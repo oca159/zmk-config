@@ -79,7 +79,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL  &kp AT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp PLUS  &kp N7  &kp N8  &kp N9  &kp ASTERISK  &none  &none  &hmr_l LCTRL HASH  &hmr_l LALT DOLLAR  &hmr_l LGUI LEFT_PARENTHESIS  &hmr_l LSHIFT RIGHT_PARENTHESIS  &kp GRAVE  &kp MINUS  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COLON  &none  &none  &kp PERCENT  &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &hmr_r PERIOD NUMBER_3  &kp SLASH  &none  &none  &kp LC(BACKSPACE)  &kp DELETE  &kp SPACE  &kp N0  &none
+&none  &kp EXCL  &kp AT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp PLUS  &kp N7  &kp N8  &kp N9  &kp ASTERISK  &none  &none  &hmr_l LCTRL HASH  &hmr_l LALT DOLLAR  &hmr_l LGUI LEFT_PARENTHESIS  &hmr_l LSHIFT RIGHT_PARENTHESIS  &kp GRAVE  &kp MINUS  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COLON  &none  &none  &kp PERCENT  &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &hmr_r PERIOD NUMBER_3  &kp BACKSLASH  &none  &none  &kp LC(BACKSPACE)  &kp AMPERSAND  &kp SPACE  &kp N0  &none
             >;
         };
 

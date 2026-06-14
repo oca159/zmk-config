@@ -50,6 +50,13 @@
             bindings = <&kp O &kp C &kp O &kp R &kp D &kp O &kp V &kp A &kp AT &kp P &kp U &kp L &kp S &kp A &kp R &kp M &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL";
         };
+
+        caret: caret {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp CARET &kp SPACE>;
+            label = "CARET";
+        };
     };
 
     keymap {
@@ -79,7 +86,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL  &kp AT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp PLUS  &kp N7  &kp N8  &kp N9  &kp ASTERISK  &none  &none  &hmr_l LCTRL HASH  &hmr_l LEFT_SHIFT DOLLAR  &hmr_l LALT LEFT_PARENTHESIS  &hmr_l LGUI RIGHT_PARENTHESIS  &kp AMPERSAND  &kp MINUS  &hmr_r RGUI NUMBER_4  &hmr_r RALT N5  &hmr_r RSHIFT NUMBER_6  &hmr_r RCTRL SEMICOLON  &none  &none  &kp PERCENT  &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &hmr_r PERIOD NUMBER_3  &kp SLASH  &none  &none  &kp BACKSLASH  &kp GRAVE  &kp SPACE  &kp N0  &none
+&none  &kp EXCL  &kp AT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp PLUS  &kp N7  &kp N8  &kp N9  &kp ASTERISK  &none  &none  &hmr_l LCTRL HASH  &hmr_l LEFT_SHIFT DOLLAR  &hmr_l LALT LEFT_PARENTHESIS  &hmr_l LGUI RIGHT_PARENTHESIS  &kp AMPERSAND  &kp MINUS  &hmr_r RGUI NUMBER_4  &hmr_r RALT N5  &hmr_r RSHIFT NUMBER_6  &hmr_r RCTRL SEMICOLON  &none  &none  &kp PERCENT  &caret  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &hmr_r PERIOD NUMBER_3  &kp SLASH  &none  &none  &kp BACKSLASH  &kp GRAVE  &kp SPACE  &kp N0  &none
             >;
         };
 

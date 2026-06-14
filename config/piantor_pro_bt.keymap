@@ -79,7 +79,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL  &kp AT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp PLUS  &kp N7  &kp N8  &kp N9  &kp ASTERISK  &none  &none  &hmr_l LCTRL HASH  &hmr_l LALT DOLLAR  &hmr_l LGUI LEFT_PARENTHESIS  &hmr_l LSHIFT RIGHT_PARENTHESIS  &kp GRAVE  &kp MINUS  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp COLON  &none  &none  &kp PERCENT  &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &hmr_r PERIOD NUMBER_3  &kp BACKSLASH  &none  &none  &kp LC(BACKSPACE)  &kp AMPERSAND  &kp SPACE  &kp N0  &none
+&none  &kp EXCL  &kp AT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp PLUS  &kp N7  &kp N8  &kp N9  &kp ASTERISK  &none  &none  &hmr_l LCTRL HASH  &hmr_l LEFT_SHIFT DOLLAR  &hmr_l LALT LEFT_PARENTHESIS  &hmr_l LGUI RIGHT_PARENTHESIS  &kp AMPERSAND  &kp MINUS  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp SLASH  &none  &none  &kp PERCENT  &kp CARET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &hmr_r PERIOD NUMBER_3  &kp COLON  &none  &none  &kp SINGLE_QUOTE  &kp GRAVE  &kp SPACE  &kp N0  &none
             >;
         };
 
@@ -93,7 +93,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&none  &kp F1  &kp F2  &kp F3  &kp F4  &email  &none  &kp K_COPY  &kp K_CUT  &kp K_PASTE  &none  &none  &none  &hmr_l LCTRL F5  &hmr_l LALT F6  &hmr_l LGUI F7  &hmr_l LSHIFT F8  &none  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &none  &none  &kp F9  &kp F10  &kp F11  &kp F12  &kp PRINTSCREEN  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &none  &none  &bt BT_NXT  &trans  &trans  &trans  &trans
+&none  &kp F1  &kp F2  &kp F3  &kp F4  &email  &none  &kp K_COPY  &kp K_CUT  &kp K_PASTE  &none  &none  &none  &hmr_l LCTRL F5  &hmr_l LSHIFT F6  &hmr_l LALT F7  &hmr_l LGUI F8  &none  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &none  &none  &kp F9  &kp F10  &kp F11  &kp F12  &kp PRINTSCREEN  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &none  &none  &bt BT_NXT  &trans  &trans  &trans  &trans
             >;
         };
     };
